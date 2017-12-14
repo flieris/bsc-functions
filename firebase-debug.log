@@ -1,0 +1,24 @@
+[debug] [2017-12-10T11:50:21.892Z] ----------------------------------------------------------------------
+[debug] [2017-12-10T11:50:21.898Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lenni\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase experimental:functions:shell
+[debug] [2017-12-10T11:50:21.899Z] CLI Version:   3.15.3
+[debug] [2017-12-10T11:50:21.899Z] Platform:      win32
+[debug] [2017-12-10T11:50:21.899Z] Node Version:  v8.9.1
+[debug] [2017-12-10T11:50:21.899Z] Time:          Sun Dec 10 2017 12:50:21 GMT+0100 (Środkowoeuropejski czas stand.)
+[debug] [2017-12-10T11:50:21.899Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-10T11:50:21.911Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-10T11:50:21.912Z] > authorizing via signed-in user
+[debug] [2017-12-10T11:50:21.913Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/wirelessmanager-c1a74  
+ Sun Dec 10 2017 12:50:21 GMT+0100 (Środkowoeuropejski czas stand.)
+[debug] [2017-12-10T11:50:22.732Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-10T11:50:22.734Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/wirelessmanager-c1a74/tokens  
+ Sun Dec 10 2017 12:50:22 GMT+0100 (Środkowoeuropejski czas stand.)
+[debug] [2017-12-10T11:50:23.395Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-12-10T11:50:24.172Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/wirelessmanager-c1a74  
+ Sun Dec 10 2017 12:50:24 GMT+0100 (Środkowoeuropejski czas stand.)
+[debug] [2017-12-10T11:50:24.172Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/wirelessmanager-c1a74/apiKeys  
+ Sun Dec 10 2017 12:50:24 GMT+0100 (Środkowoeuropejski czas stand.)
+[debug] [2017-12-10T11:50:25.014Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-10T11:50:25.130Z] <<< HTTP RESPONSE 200
+[info] +  functions: pointSanitization
